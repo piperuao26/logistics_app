@@ -75,3 +75,13 @@ Unit tests were implemented using Pytest to validate:
 
 To run tests:
 
+## 🐳 Run with Docker
+
+Build image:
+
+docker build -t logistics-backend .
+
+Run container:
+
+docker run -p 8000:8000 logistics-backend
+
